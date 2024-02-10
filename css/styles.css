@@ -467,7 +467,7 @@ a {
 }
 .footer-form {
     display: flex;
-    margin-top: 16px;
+    gap: 24px;
 }
 .footer-label {
 
@@ -479,6 +479,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
     
 }
 .footer-input {
@@ -497,14 +498,14 @@ a {
     letter-spacing: 0.04em;
     padding-left: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
+    color: #ffffff;
 }
 .footer-input:focus,
 .footer-input:hover {
     border-color: #4D5AE5;
 }
 .footer-input::placeholder {
-    color: #FFFfff;
+    color: #ffffff;
     font-size: 12px;
     font-weight: 400;
     line-height: 2;
@@ -512,7 +513,7 @@ a {
     padding: 8px 16px;
 }
 .footer-btn {
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -537,6 +538,8 @@ a {
 }
 .icon-sub {
    fill: #ffffff; 
+   margin-left: 16px;
+
 
 }
 /*Modal-wind*/
